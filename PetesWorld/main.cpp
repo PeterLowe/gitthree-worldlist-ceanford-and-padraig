@@ -269,6 +269,31 @@ int main()
 			std::cout << "There are no Us in rest of the world" << std::endl; // default negative
 		}
 	}
+	if (letter == 't' || letter == 'T') // written by Ceanford Samsin
+	{
+		if (region == 1)
+		{
+			std::cout << "Trinidad and Tobago" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Turkey" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Tanzania, Togo, Tunisia, " << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Taiwan, Tajikistan, Thailand, Tibet, Timor-Leste, Turkmenistan" << std::endl;
+		}
+
+		if (region == 5)
+		{
+			std::cout << "Tokelau, Tonga, Turks and Caicos Islands, Tuvalu" << std::endl;
+		}
+
+	}
 	
 	
 	return 1;
