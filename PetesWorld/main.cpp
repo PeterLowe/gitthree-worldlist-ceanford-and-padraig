@@ -57,7 +57,7 @@ int main()
 	}	
 
 
-	if (letter == 'b' || letter == 'B')
+	if (letter == 'b' || letter == 'B') // written by Padraig
 	{
 		if (region == 1)
 		{
@@ -81,7 +81,7 @@ int main()
 		}
 	}
 
-	if (letter == 'c' || letter == 'C')
+	if (letter == 'c' || letter == 'C') // written by Padraig
 	{
 		if (region == 1)
 		{
@@ -105,7 +105,7 @@ int main()
 		}
 	}
 
-	if (letter == 'd' || letter == 'D')
+	if (letter == 'd' || letter == 'D') //written by Padraig
 	{
 		if (region == 1)
 		{
@@ -129,7 +129,7 @@ int main()
 		}
 	}
 
-	if (letter == 'e' || letter == 'E')
+	if (letter == 'e' || letter == 'E') //written by Padraig
 	{
 		if (region == 1)
 		{
