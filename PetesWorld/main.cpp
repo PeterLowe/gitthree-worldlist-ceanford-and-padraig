@@ -222,7 +222,29 @@ int main()
 			std::cout << "Vanuatu, Virgin Islands (British), Virgin Islands (U.S.)" << std::endl;
 		}
 	}
-	
+	if (letter == 'u' || letter == 'U') // written by Ceanford
+	{
+		if (region == 1)
+		{
+			std::cout << "United States, Uruguay" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Ukraine, United Kingdom" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Uganda" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Uzbekistan, United Arab Emirates" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no Us in rest of the world" << std::endl; // default negative
+		}
+	}
 	
 	
 	return 1;
