@@ -81,7 +81,7 @@ int main()
 		}
 	}
 
-	if (letter == 'c' || letter == 'B')
+	if (letter == 'c' || letter == 'C')
 	{
 		if (region == 1)
 		{
