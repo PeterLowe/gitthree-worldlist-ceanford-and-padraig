@@ -25,12 +25,12 @@ int main()
 	std::cout << "Pick a letter from A to A or Z to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
-	{ 
+	{
 		if (letter < 'a' || letter > 'z') // not a lower case letter
 		{
 			std::cout << "You need to select a letter from A to Z" << std::endl;
-			return 0; 
-		}		
+			return 0;
+		}
 	}
 	if (letter == 'a' || letter == 'A') // written by Pete
 	{
@@ -55,6 +55,32 @@ int main()
 			std::cout << "Australia, Antarctica, Aruba, Anguilla Leeward Islands, Antigua and Barbuda, American Samoa" << std::endl;
 		}
 	}	
+
+
+	if (letter == 'b' || letter == 'B')
+	{
+		if (region == 1)
+		{
+			std::cout << "Bahamas, Barbados, Belize, Bermuda, Bolivia" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Belarus, Belgium, Bosnia & Herzegovina" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Benin, Botswana" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Bahrain, Bangladesh, Bhutan" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no B's in the Rest of the World" << std::endl;
+		}
+	}
+
 	if (letter == 'y' || letter == 'Y') // written by Ceanford
 	{
 		if (region == 1)
@@ -102,7 +128,30 @@ int main()
 		}
 
 	}
-	
+
+	if (letter == 'z' || letter == 'Z') // written by Pete
+	{
+		if (region == 1)
+		{
+			std::cout << "There are no Zs in the Americas" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "There are no Zs in Europe" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Zimbabwe, Zambia" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "There are no Zs in Asia" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no Zs in the Rest of the World" << std::endl;
+		}
+	}
 	
 	
 	return 1;
