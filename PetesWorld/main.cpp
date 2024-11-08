@@ -1,6 +1,6 @@
 // program to find countries in Pete's World
 // date November 2022
-// author Pete Lowe / Ceanford Samsin
+// author Pete Lowe / Ceanford Samsin / Padraig o'Reilly
 // add your name here
 //  or here
 // estimated time 120 minutes
