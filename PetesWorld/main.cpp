@@ -129,6 +129,30 @@ int main()
 		}
 	}
 
+	if (letter == 'e' || letter == 'E')
+	{
+		if (region == 1)
+		{
+			std::cout << "Ecuador, El Salvador" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Estonia" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Egypt, Equatorial Guinea, Eritrea, Ethiopia" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "East Timor" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no E's in the Rest of the World" << std::endl;
+		}
+	}
+
 	if (letter == 'z' || letter == 'Z') // written by Pete
 	{
 		if (region == 1)
