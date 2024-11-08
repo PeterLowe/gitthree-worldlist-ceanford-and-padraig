@@ -80,6 +80,29 @@ int main()
 			std::cout << "There are no B's in the Rest of the World" << std::endl;
 		}
 	}
+	if (letter == 'z' || letter == 'Z') // written by Pete
+	{
+		if (region == 1)
+		{
+			std::cout << "There are no Zs in the Americas" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "There are no Zs in Europe" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Zimbabwe, Zambia" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "There are no Zs in Asia" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no Zs in the Rest of the World" << std::endl;
+		}
+	}
 
 	if (letter == 'y' || letter == 'Y') // written by Ceanford
 	{
