@@ -105,7 +105,7 @@ int main()
 		}
 	}
 
-	if (letter == 'd' || letter == 'D') //written by Padraig
+	if (letter == 'd' || letter == 'D') // written by Padraig
 	{
 		if (region == 1)
 		{
@@ -129,7 +129,7 @@ int main()
 		}
 	}
 
-	if (letter == 'e' || letter == 'E') //written by Padraig
+	if (letter == 'e' || letter == 'E') // written by Padraig
 	{
 		if (region == 1)
 		{
@@ -150,6 +150,30 @@ int main()
 		if (region == 5)
 		{
 			std::cout << "There are no E's in the Rest of the World" << std::endl;
+		}
+	}
+
+	if (letter == 'f' || letter == 'F') // written by Padraig
+	{
+		if (region == 1)
+		{
+			std::cout << "Falkland Islands" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Faroe Islands, Finland, France" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "French Guinea" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Fiji, French Polynesia, French Southern Territories" << std::endl;
 		}
 	}
 
